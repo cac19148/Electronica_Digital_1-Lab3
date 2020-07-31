@@ -46,7 +46,7 @@ initial begin	// noten el uso del begin y end
 end	
 initial
     begin
-      $dumpfile("Tabla-1-SOP.v"); // noten que el nombre del archivo siempre es el que incluye el _tb y la extension es .vcd
+      $dumpfile("Tabla-1-SOP_tb.vcd"); // noten que el nombre del archivo siempre es el que incluye el _tb y la extension es .vcd
       $dumpvars(0, Tabla1SOP); // noten que el nombre que está después del número 0 es el mismo que el nombre del módulo que estamos probando
     end
 endmodule	//finalizar el módulo
